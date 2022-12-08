@@ -27,7 +27,7 @@ def BotDecision(score):
     operator_interval = confidence_interval(operator_list)
     reask_interval = confidence_interval(reask_list)
     correct_interval = confidence_interval(correct_list)
-    if score < reask_interval[0]:
+    if 0 <= score < reask_interval[0]:
         # print("Бот совсем не уверен в ответе (score низкий)")
         return "Перевести на оператора (уверенность низкая)"
     elif score < correct_interval[0]:
@@ -36,4 +36,4 @@ def BotDecision(score):
     else:
         return "Вывести ответ пользователю (уверенность высокая)"
 
-print(BotDecision(88))
+    # Для использования алгоритма, передайте число от 0 до 100 в функцию BotDecision и выведите на печать. Например так print(BotDecision(88))
