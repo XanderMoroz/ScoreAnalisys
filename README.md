@@ -34,7 +34,7 @@
 
 ## **Ответы**
 
-Более обстоятельный разбор решения предложен в GoogleColab и доступен по [ссылке](https://colab.research.google.com/drive/1L80yR6mViPKH5sRVPm9HaRkVJZ_D5r2I?usp=share_link).
+Более обстоятельный разбор решения предложен в GoogleColab и доступен по ссылке: [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1L80yR6mViPKH5sRVPm9HaRkVJZ_D5r2I?usp=share_link)
 
 ### Ответ №1 Ранжирование значения "Score"
 Опираясь на данные можно утверждать что:
